@@ -1,7 +1,7 @@
 {
   "id": "./",
-  "name": "Orbite",
-  "short_name": "Orbite",
+  "name": "Orbite App",
+  "short_name": "Orbite App",
   "description": "Organisation personnelle, sur ton appareil.",
   "start_url": "./",
   "scope": "./",
