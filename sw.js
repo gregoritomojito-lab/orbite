@@ -1,5 +1,5 @@
 /* Service worker d'Orbite (version hébergée). Réseau d'abord pour la page, cache en repli. Ne met en cache QUE les fichiers de l'appli. */
-const CACHE = 'orbite-web-0.11.0-beta.21-d2a5c4d3';
+const CACHE = 'orbite-web-0.11.0-beta.22-3ba382e1';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-512-maskable.png', 'icons/apple-touch-icon.png'];
 const abs = (u) => new URL(u, self.registration.scope).href;
 const ALLOWED = new Set(SHELL.map(abs));
